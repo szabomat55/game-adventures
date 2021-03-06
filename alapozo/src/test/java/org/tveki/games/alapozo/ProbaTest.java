@@ -39,4 +39,9 @@ class ProbaTest {
         assertEquals("Szia Bori!", proba.szia("Bori"));
     }
 
+    @Test
+    public void testSziaMagdi() {
+        assertEquals("Szia Magdi!", proba.szia("Magdi"));
+    }
+
 }
